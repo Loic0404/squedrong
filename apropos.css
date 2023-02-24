@@ -76,7 +76,9 @@ ul {
 
 .socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 10%;
+    padding: 15px;
 }
 
 .twitter {
@@ -95,8 +97,8 @@ ul {
 }
 
 .illustration {
-    width: 400px;
-    height: 30%;
+    width: 550px;
+    height: 40%;
 
 }
 
