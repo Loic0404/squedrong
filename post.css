@@ -2,9 +2,73 @@
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+    color: rgb(210, 109, 131);
+    margin-left: 10%;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 108);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.logo
+{ 
+    padding-left: 10%;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(71, 71, 150);
+}
+
+
+.paragraphe {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+
+.paragraphe2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paragraphe3 {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+ color: rgb(36, 36, 141);
 }
+
+h4 {
+    color: rgb(36, 36, 141);;
+}
+
+.photo1 {
+    margin-left: 10%;
+    width: auto;
+    height: auto;
+ }
