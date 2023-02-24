@@ -1,11 +1,50 @@
-h2,
+* {
+    margin: auto;
+}
+
 /* J'ajoute les polices à utiliser */
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', sans-serif;
+    color: rgb(158, 35, 82);
+    display: flex;
+    padding: 5%;
 }
 
 
-h3 {
+body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    background-color: white;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
