@@ -2,10 +2,53 @@
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+    color: rgb(158, 35, 82);
 }
 
+
+/* CSS pour toute la page */
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+/* CSS pour la barre de navigation (header) */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div a {
+    margin-left: 50px;
+}
+
+
+/* CSS classe "conteneur1" */
+
+.conteneur1 .div1 img {
+    width: 400px;
+}
+
+.conteneur1 {
+    display: flex;
+    gap: 30px;
+}
+
+.conteneur1 .div2 {
+    
+}
