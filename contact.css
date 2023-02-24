@@ -58,19 +58,21 @@ nav div a {
 .div1 div {
     margin-top: 35px;
 }
+
 .lien {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .facebook {
+    width: 110px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
-    text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .linkedin{
@@ -80,6 +82,7 @@ nav div a {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .twitter {
@@ -89,6 +92,7 @@ nav div a {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .medium {
@@ -98,4 +102,5 @@ nav div a {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
