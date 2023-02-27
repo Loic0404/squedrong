@@ -1,176 +1,118 @@
-/* Modification de la police à utiliser pour le h1 */
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    color: rgb(158, 35, 82);
+/* J'ajoute les polices à utiliser */
+.containerun{
+    display: flex;
+    gap: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
 }
-
-
-/* CSS pour toute la page */
-
-/* Modification du body */
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-
-/* Modification pour tous les a */
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    color: blue;
-    font-weight: bold;
-}
-
-
-/* CSS pour la barre de navigation (header) */
-
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
 nav div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 nav div a {
     margin-left: 50px;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: palevioletred;
+}
 
 
-/* CSS classe "conteneur1" */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+}
 
-/* Modification de la taille de l'image */
-.illustration {
+.illustration{
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+.reseauxsociaux {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.twitter {
+    display: flex;
+    border: #00acee solid 1px;
+    background-color: #00acee;
+    color: white;
+    text-align: left;
+    margin: auto; 
+}
+
+.linkedin{
+    display: flex;
+    border: #0e76a8;
+    background-color:#0e76a8;
+    color: white;
+    text-align: left;
+    margin: auto;
+}
+
+.medium{
+    display: flex;
+    border: black;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: auto; 
+}
+
+
+.containerdeux{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 5px;
+}
+.containerdeux div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.containerdeux div p{
+    width: 400px;
+}
+.containerdeux div a{
+    margin-bottom: 20px;
+    color: palevioletred;
+}
+.photomac{
     width: 400px;
 }
 
-/* Modification du conteneur1 */
-.conteneur1 {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+.photopc{
+    width: 400px;
 }
-
-/* Modification de la div1 */
-.div1 {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 50px;
-}
-
-/* Modification de la div dans div1 */
-.div1 div {
-    margin-top: 35px;
-}
-
-/* Modification de la classe lien */
-.lien {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Modification de la classe facebook */
-.facebook {
-    width: 110px;
-    height: 30px;
-    border: #00acee solid 1px;
-    background-color: #00acee;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Modification de la classe linkedin */
-.linkedin{
-    width: 110px;
-    height: 25px;
-    border: #0e76a8 solid;
-    background-color: #0e76a8;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Modification de la classe twitter */
-.twitter {
-    width: 110px;
-    height: 30px;
-    border: #00acee solid 1px;
-    background-color: #00acee;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Modification de la classe medium */
-.medium {
-    width: 110px;
-    height: 30px;
-    border: #00acee solid 1px;
-    background-color: #00acee;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/* CSS du conteneur2 */
-
-/* Modification du conteneur2 */
-.conteneur2 {
-    display: flex;
+.texte{
+    display: flex; 
     flex-direction: column;
-}
 
-/* Modification de la div dans le conteneur2 */
-.conteneur2 div{
-    display: flex;
-    justify-content: space-between;
-   
-}
-
-/* Modification du titre dans le conteneur2 */
-.conteneur2 h2 {
-    color: #0e76a8;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-/* Modification de l'adresse */
-.conteneur2 div address {
-    width: 250px;
-    border: #00acee solid;
-    background-color: #00acee;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Modification des liens dans le conteneur2 */
-.conteneur2 div a {
-    width: 250px;
-    border: #00acee solid;
-    background-color: #00acee;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
