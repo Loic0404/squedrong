@@ -1,10 +1,70 @@
 /* J'ajoute les polices à utiliser */
-
+.containerun{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
 h1 {
     font-family: 'Abril Fatface', cursive;
+    color: palevioletred;
 }
 
 
-h3 {
+h2 {
     font-family: 'Montserrat', sans-serif;
+    font-style: bold;
 }
+
+.illustration img{
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+.reseauxsociaux { gap: 20px;
+
+}
+
+.twitter {
+    display: flex;
+    border: #00acee solid 1px;
+    background-color: #00acee;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+    
+  
+}
+
+.linkedin{
+    display: flex;
+    border: #0e76a8;
+    background-color:#0e76a8;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.medium{
+    display: flex;
+    border: black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto; 
+}
+
+.containerdeux{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+

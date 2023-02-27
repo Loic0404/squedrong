@@ -1,22 +1,30 @@
 * {
-    margin: auto;
+    margin: 0;
 }
 
-/* J'ajoute les polices à utiliser */
+main {
+    margin: auto;
+    width: 50%;
+}
+
+/* Anrital Fatface est a utiliser uniquement sur les titres de niveau 1 (h1) */
 
 h1 {
     font-family: 'Abril Fatface', sans-serif;
     color: rgb(158, 35, 82);
     display: flex;
-    padding: 5%;
+    font-size: 50px;
 }
 
+/* !J'applique la police Montserrat sur le body car il faut l'appliquer sur l'ensemble du texte et des titres de niveaux2 */
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     background-color: white;
-
+    /* margin ou padding pour bien centrer toute la page */
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
@@ -27,12 +35,15 @@ a {
 
 }
 
+/* a:hover est utiliser pour mettre une couleur bleu sur l'ensemble des liens lorsque l'utilisateur les survoles avec sa souris */
+
 a:hover {
     color: blue;
 }
 
 header {
     padding: 20px 50px;
+
 }
 
 nav {
@@ -43,8 +54,71 @@ nav {
 
 }
 
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav div a {
+    margin-left: 50px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    padding: 15px;
+}
+
+.twitter {
+    border: 10px solid #00acee;
+    background-color: #00acee;
+}
+
+.linkedin {
+    border: 10px solid #0e76a8;
+    background-color: #0e76a8;
+}
+
+.medium {
+    border: 10px solid black;
+    background-color: black;
+}
+
+.illustration {
+    width: 550px;
+    height: 40%;
+
+}
+
+footer a {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+li {
+    font-style: italic;
+
+}
+
+h2 {
+    color: rgb(158, 35, 82);
+
 }
