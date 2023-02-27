@@ -142,8 +142,8 @@ nav div a {
     margin-right: 15%;
 }
 
-/* Modification de la div dans le conteneur2 */
-.conteneur2 div{
+/* Modification du formulaire dans le conteneur2 */
+.conteneur2 form{
     display: flex;
     justify-content: space-between;
    
@@ -156,27 +156,28 @@ nav div a {
     margin-bottom: 30px;
 }
 
-/* Modification de l'adresse */
-.conteneur2 div address {
-    width: 250px;
-    border: #00acee solid;
-    background-color: #00acee;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Modification des liens dans le conteneur2 */
-.conteneur2 div a {
-    width: 250px;
-    border: #00acee solid;
-    background-color: #00acee;
-    color: white;
+.box1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
+.identite {
+    color: black;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.coordonnee{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.mail img {
+    gap: 10px;
+}
 
 /* CSS du footer */
 

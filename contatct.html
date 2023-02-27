@@ -92,19 +92,67 @@
 
             <h2> Me conctacter</h2>
 
-            <!-- DIV avec les liens adresse, téléphone et mail -->
-            <div>
-                <address> <img src="icones/page-daccueil.png" alt="Logo d'une maison">44 rue du codeur </address>
-                <a href="tel:+"><img src="icones/appel-telephonique.png" alt="icone d'u téléphone">Télépone</a>
-                <a href="mailto:"><img src="icones/gmail.png" alt="logo Gmail">Gmail</a>
-                <a href="mailto:"><img src="icones/outlook.png " alt="Logo outlook">Outlook</a>
+            <div class="box1">
+
+                <fieldset>
+
+                    <form action="get">
+
+                        <div>
+                            
+                            <div class="identite">
+    
+                                <div>
+                                    <label for="nom">Votre Nom: </label>
+                                    <input type="text" id="nom" name="nom">
+                                </div>
+                
+                                <div>
+                                    <label for="prenom">Votre prénom: </label>
+                                    <input type="text" id="prenom" name="prenom">
+                                </div>
+    
+                            </div>
+                            
+                            <div class="coordonnee">
+    
+                                <div class="mail">
+                                    <label for="mail"><img src="icones/gmail.png" alt="logo gmail">E:mail</label>
+                                    <input type="email" id="mail" name="mail">
+                                </div>
+                
+                                <div>
+                                    <label for="telephone"><img src="icones/appel-telephonique.png" alt="logo telephone"> Numéro de téléphone</label>
+                                    <input type="tel" id="telephone" name="telephone">
+                                </div>
+    
+                            </div>
+            
+                            <div class="message">
+                                <label for="message">Votre message: </label>
+                                <input type="text" id="message" name="message">
+                            </div>
+                            
+                            <div>
+                                <input type="submit">
+                            </div>
+    
+                        </div>
+                       
+                    </form>
+
+                </fieldset>
+                
+    
             </div>
+            
         </section>
+
     </main>
 
     <!-- Création du footer -->
     <footer>
-        
+
         <img class="logo" src="images/logo.png" alt="logo société">
 
         <div class="box">
