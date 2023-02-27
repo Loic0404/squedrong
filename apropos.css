@@ -2,18 +2,14 @@
     margin: 0;
 }
 
-main {
-    margin: auto;
-    width: 50%;
-}
-
 /* Anrital Fatface est a utiliser uniquement sur les titres de niveau 1 (h1) */
-
 h1 {
     font-family: 'Abril Fatface', sans-serif;
     color: rgb(158, 35, 82);
     display: flex;
     font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* !J'applique la police Montserrat sur le body car il faut l'appliquer sur l'ensemble du texte et des titres de niveaux2 */
@@ -23,6 +19,10 @@ body {
     font-size: 1.5em;
     background-color: white;
     /* margin ou padding pour bien centrer toute la page */
+
+}
+
+main {
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -39,15 +39,16 @@ a:hover {
     font-weight: bold;
 }
 
-header {
-    padding: 20px 50px;
-}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
 
 nav div {
     display: flex;
@@ -64,6 +65,8 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -72,29 +75,41 @@ ul {
     justify-content: space-around;
     margin-right: 15%;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 150px;
+    align-items: center;
+    gap: 20px;
+
+
 }
 
 .twitter {
     border: 10px solid #00acee;
     background-color: #00acee;
+    width: 150px;
+
 }
 
 .linkedin {
     border: 10px solid #0e76a8;
     background-color: #0e76a8;
+    width: 150px;
 }
 
 .medium {
     border: 10px solid black;
     background-color: black;
+    width: 150px;
 }
 
 .illustration {
-    width: 500px;
-    height: 40%;
-    margin-top: 30px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    height: auto;
+    width: 600px;
 }
+
 
 footer a {
     color: white;
@@ -115,17 +130,36 @@ li {
 h2 {
     margin-top: 30px;
     color: rgb(158, 35, 82);
+
 }
 
 .photo {
     margin-top: 30px;
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+
 }
 
 
 .photoune {
-    height: 250px;
-    width: 50%;
+    height: auto;
+    width: 350px;
+}
+
+.fin {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+.hautdepage {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+footer {
+    margin-left: 5%;
+    margin-right: 20%;
 }
