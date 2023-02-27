@@ -1,7 +1,7 @@
 /* J'ajoute les polices à utiliser */
 .containerun{
     display: flex;
-    gap: 30px;
+    gap: 5px;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 50px;
@@ -44,14 +44,13 @@ h2 {
 
 a{
     text-decoration: none;
-    color: gray;
 }
 .reseauxsociaux {
     display: flex;
-    gap: 5px;
     text-decoration: none;
     align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 5px;
 
 
 }
@@ -60,8 +59,11 @@ a{
     display: flex;
     border: #00acee solid 1px;
     background-color: #00acee;
+    height: 50px;
+    width: 100px; 
     color: white;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
     margin: auto; 
 }
 
@@ -70,7 +72,10 @@ a{
     border: #0e76a8;
     background-color:#0e76a8;
     color: white;
-    text-align: left;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    justify-content: center; 
     margin: auto;
 }
 
@@ -79,7 +84,11 @@ a{
     border: black;
     background-color: black;
     color: white;
-    text-align: left;
+    height: 50px;
+    width: 100px;
+
+    align-items: center;
+    justify-content: center; 
     margin: auto; 
 }
 
@@ -88,9 +97,9 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 15px;
 }
 .containerdeux div{
     display: flex;
@@ -106,11 +115,12 @@ a{
     text-align: left;
 }
 .photomac{
-    width: 400px;
+    width: 500px;
+    
 }
 
 .photopc{
-    width: 400px;
+    width: 500px;
 }
 .texte{
     display: flex; 
