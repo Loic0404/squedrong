@@ -20,6 +20,7 @@ nav div {
 }
 nav div a {
     margin-left: 50px;
+    text-decoration: none;
 }
 img {
     max-width: 100%;
