@@ -6,7 +6,20 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     color: gray;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div a {
+    margin-left: 50px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -20,14 +33,21 @@ h2 {
 }
 
 .illustration img{
-    width: 300px;
+    width: 300px;  
 }
 
 a{
     text-decoration: none;
     color: gray;
 }
-.reseauxsociaux { gap: 20px;
+.reseauxsociaux {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -36,11 +56,8 @@ a{
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
-    text-align: center;
-    margin: auto;
-
-    
-  
+    text-align: left;
+    margin: auto; 
 }
 
 .linkedin{
@@ -48,7 +65,7 @@ a{
     border: #0e76a8;
     background-color:#0e76a8;
     color: white;
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
@@ -57,14 +74,20 @@ a{
     border: black;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     margin: auto; 
 }
+
 
 .containerdeux{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+    grid-template-rows: 1fr 1fr 1fr 1fr;    
+}
+.photomac{
+    width: 400px;
 }
 
+.photopc{
+    width: 400px;
+}

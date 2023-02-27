@@ -25,40 +25,34 @@ body {
     /* margin ou padding pour bien centrer toute la page */
     margin-left: 20%;
     margin-right: 20%;
-
 }
 
 a {
     text-decoration: none;
     color: black;
-
-
 }
 
 /* a:hover est utiliser pour mettre une couleur bleu sur l'ensemble des liens lorsque l'utilisateur les survoles avec sa souris */
 
 a:hover {
     color: blue;
+    font-weight: bold;
 }
 
 header {
     padding: 20px 50px;
-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-
-
 }
 
 nav div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 
@@ -70,15 +64,15 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-
 }
 
 
 .socials {
     display: flex;
     justify-content: space-around;
-    margin-right: 10%;
+    margin-right: 15%;
     padding: 15px;
+    margin-top: 30px;
 }
 
 .twitter {
@@ -97,9 +91,9 @@ ul {
 }
 
 .illustration {
-    width: 550px;
+    width: 500px;
     height: 40%;
-
+    margin-top: 30px;
 }
 
 footer a {
@@ -114,11 +108,24 @@ p {
 }
 
 li {
+    margin-top: 15px;
     font-style: italic;
-
 }
 
 h2 {
+    margin-top: 30px;
     color: rgb(158, 35, 82);
+}
 
+.photo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+.photoune {
+    height: 250px;
+    width: 50%;
 }
