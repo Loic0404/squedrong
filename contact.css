@@ -1,5 +1,4 @@
-/* J'ajoute les polices à utiliser */
-
+/* Modification de la police à utiliser pour le h1 */
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(158, 35, 82);
@@ -8,14 +7,22 @@ h1 {
 
 /* CSS pour toute la page */
 
+/* Modification du body */
 body {
     font-family: 'Montserrat', sans-serif;
     margin-left: 15%;
     margin-right: 15%;
 }
 
+
+/* Modification pour tous les a */
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    font-weight: bold;
 }
 
 
@@ -37,17 +44,15 @@ nav div a {
     margin-left: 50px;
 }
 
-a:hover{
-    color: blue;
-    font-weight: bold;
-}
 
 /* CSS classe "conteneur1" */
 
+/* Modification de la taille de l'image */
 .illustration {
     width: 400px;
 }
 
+/* Modification du conteneur1 */
 .conteneur1 {
     display: flex;
     flex-direction: row;
@@ -56,24 +61,29 @@ a:hover{
     margin-right: 10%;
 }
 
+/* Modification de la div1 */
 .div1 {
     display: flex;
     gap: 30px;
     margin-bottom: 50px;
 }
 
+/* Modification de la div dans div1 */
 .div1 div {
     margin-top: 35px;
 }
 
+/* Modification de la classe lien */
 .lien {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+/* Modification de la classe facebook */
 .facebook {
     width: 110px;
+    height: 30px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
@@ -82,8 +92,10 @@ a:hover{
     justify-content: center;
 }
 
+/* Modification de la classe linkedin */
 .linkedin{
     width: 110px;
+    height: 25px;
     border: #0e76a8 solid;
     background-color: #0e76a8;
     color: white;
@@ -93,8 +105,10 @@ a:hover{
     justify-content: center;
 }
 
+/* Modification de la classe twitter */
 .twitter {
     width: 110px;
+    height: 30px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
@@ -104,8 +118,10 @@ a:hover{
     justify-content: center;
 }
 
+/* Modification de la classe medium */
 .medium {
     width: 110px;
+    height: 30px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
@@ -115,23 +131,30 @@ a:hover{
     justify-content: center;
 }
 
+
+/* CSS du conteneur2 */
+
+/* Modification du conteneur2 */
 .conteneur2 {
     display: flex;
     flex-direction: column;
 }
 
+/* Modification de la div dans le conteneur2 */
 .conteneur2 div{
     display: flex;
     justify-content: space-between;
    
 }
 
+/* Modification du titre dans le conteneur2 */
 .conteneur2 h2 {
     color: #0e76a8;
     text-align: center;
     margin-bottom: 30px;
 }
 
+/* Modification de l'adresse */
 .conteneur2 div address {
     width: 250px;
     border: #00acee solid;
@@ -141,6 +164,7 @@ a:hover{
     justify-content: center;
 }
 
+/* Modification des liens dans le conteneur2 */
 .conteneur2 div a {
     width: 250px;
     border: #00acee solid;
