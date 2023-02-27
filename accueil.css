@@ -6,7 +6,16 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     color: gray;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div a {
+    margin-left: 50px;
 }
 img {
     max-width: 100%;
@@ -31,13 +40,14 @@ a{
     text-decoration: none;
     color: gray;
 }
-.reseauxsociaux { gap: 5px;
-    text-decoration: none;
+.reseauxsociaux {
     display: flex;
+    gap: 5px;
+    text-decoration: none;
     flex-wrap: wrap;
-    align-items: left;
-  justify-content: left;
-  text-align: left;
+    align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -46,7 +56,7 @@ a{
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
-    text-align: center;
+    text-align: left;
     margin: auto; 
 }
 
@@ -55,7 +65,7 @@ a{
     border: #0e76a8;
     background-color:#0e76a8;
     color: white;
-    text-align: center;
+    text-align: left;
     margin: auto;
 }
 
@@ -64,7 +74,7 @@ a{
     border: black;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     margin: auto; 
 }
 
