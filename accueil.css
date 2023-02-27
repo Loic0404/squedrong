@@ -1,13 +1,18 @@
 /* J'ajoute les polices à utiliser */
 .containerun{
     display: flex;
-    
+    gap: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
     color: gray;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 nav div {
     display: flex;
@@ -32,7 +37,7 @@ h2 {
     font-style: bold;
 }
 
-.illustration img{
+.illustration{
     width: 300px;  
 }
 
@@ -44,9 +49,8 @@ a{
     display: flex;
     gap: 5px;
     text-decoration: none;
-    flex-wrap: wrap;
     align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   
 
 }
@@ -82,7 +86,23 @@ a{
 .containerdeux{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 5px;    
+}
+.containerdeux div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.containerdeux div p{
+    width: 400px;
+}
+.containerdeux div a{
+    margin-bottom: 20px;
+    color: palevioletred;
 }
 .photomac{
     width: 400px;
@@ -90,4 +110,9 @@ a{
 
 .photopc{
     width: 400px;
+}
+.texte{
+    display: flex; 
+    flex-direction: column;
+    
 }
