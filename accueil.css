@@ -39,7 +39,7 @@ h2 {
 }
 
 .illustration{
-    width: 300px;  
+    width: 300px;
 }
 
 a{
@@ -52,7 +52,7 @@ a{
     text-decoration: none;
     align-items: center;
   justify-content: space-between;
-  
+
 
 }
 
@@ -90,7 +90,7 @@ a{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-left: 20px;
     margin-right: 20px;
-    gap: 5px;    
+    gap: 5px;
 }
 .containerdeux div{
     display: flex;
@@ -115,5 +115,5 @@ a{
 .texte{
     display: flex; 
     flex-direction: column;
-    
+
 }
