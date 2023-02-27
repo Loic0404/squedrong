@@ -10,8 +10,7 @@ h1 {
 /* Modification du body */
 body {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 15%;
-    margin-right: 15%;
+    
 }
 
 
@@ -29,6 +28,8 @@ a:hover{
 /* CSS pour la barre de navigation (header) */
 
 nav {
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -57,8 +58,8 @@ nav div a {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* Modification de la div1 */
@@ -138,6 +139,8 @@ nav div a {
 .conteneur2 {
     display: flex;
     flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Modification de la div dans le conteneur2 */
@@ -173,4 +176,32 @@ nav div a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+footer div img {
+    width: 20px;
+    height: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
 }
