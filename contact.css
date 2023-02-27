@@ -37,6 +37,10 @@ nav div a {
     margin-left: 50px;
 }
 
+a:hover{
+    color: blue;
+    font-weight: bold;
+}
 
 /* CSS classe "conteneur1" */
 
@@ -48,11 +52,14 @@ nav div a {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .div1 {
     display: flex;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .div1 div {
@@ -76,6 +83,7 @@ nav div a {
 }
 
 .linkedin{
+    width: 110px;
     border: #0e76a8 solid;
     background-color: #0e76a8;
     color: white;
@@ -86,6 +94,7 @@ nav div a {
 }
 
 .twitter {
+    width: 110px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
@@ -96,10 +105,47 @@ nav div a {
 }
 
 .medium {
+    width: 110px;
     border: #00acee solid 1px;
     background-color: #00acee;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteneur2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur2 div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.conteneur2 h2 {
+    color: #0e76a8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conteneur2 div address {
+    width: 250px;
+    border: #00acee solid;
+    background-color: #00acee;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteneur2 div a {
+    width: 250px;
+    border: #00acee solid;
+    background-color: #00acee;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
