@@ -3,20 +3,37 @@
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: rgb(210, 109, 131);
-    margin-left: 10%;
+    margin-left: auto;
+    
 }
 
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(51, 51, 108);
+    
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 10%;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+nav img { 
+margin-left: 2px;
+}
+
+
+nav div a {
+    margin-left: 50px;
+}
+
+main {
+ margin:auto;
+ width: 50%;
 }
 
 .logo
@@ -28,6 +45,7 @@ nav{
 a {
     text-decoration: none;
     color: black;
+   
 }
 
 a:hover {
@@ -40,7 +58,8 @@ a:hover {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 10%;
+    text-align: justify;
+    
 }
 
 
@@ -49,6 +68,8 @@ a:hover {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    text-align: justify;
+    
 }
 
 .paragraphe3 {
@@ -56,19 +77,83 @@ a:hover {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    text-align: justify;
+    
 }
 
 
 h3 {
  color: rgb(36, 36, 141);
+ margin-left: auto;
 }
 
 h4 {
-    color: rgb(36, 36, 141);;
+    color: rgb(36, 36, 141);
+    margin-left: auto;
 }
 
 .photo1 {
-    margin-left: 10%;
-    width: auto;
+    margin-right: auto;
+    width: 840px;
     height: auto;
  }
+
+ .fin {
+    display: flex;
+ }
+
+ .photo2 {
+    width: 350px;
+    margin-left: auto;
+ }
+
+
+ .propos {
+    color: rgb(210, 109, 131);
+ }
+
+
+ .lorem  {
+    display: flex;
+
+     }
+
+.fin a{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+
+}
+
+.twitter {
+    border: 3px solid #00acee;
+    background-color: #00acee;
+    height: 35px;
+    width: 130px;
+}
+
+.linkedin {
+    border: 3px solid #0e76a8;
+    background-color: #0e76a8;
+    height: 35px;
+    width: 130px;
+}
+
+.medium {
+    border: 3px solid #000000;
+    background-color: #000000;
+    height: 35px;
+    width: 130px;
+}
+
+footer a {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rangement {
+    display: flex;
+   
+}
+
