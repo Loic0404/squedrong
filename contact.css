@@ -7,10 +7,9 @@ h1 {
 
 /* CSS pour toute la page */
 
-/* Modification du body */
+/* Modification de la police d'écriture du body */
 body {
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 
@@ -178,6 +177,10 @@ nav div a {
     justify-content: center;
 }
 
+
+/* CSS du footer */
+
+/* Mise en forme du footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -186,20 +189,24 @@ footer {
     margin-right: 5%;
 }
 
+/* Mise en forme de la div du footer */
 footer div {
     display: flex;
     align-items: center;
 }
 
+/* Règle la taille du logo de la société */
 .logo {
     width: 80px;
 }
 
+/* Règle la taille de l'icone copyright */
 footer div img {
     width: 20px;
     height: 20px;
 }
 
+/* Mise en forme de la classe "box" */
 .box {
     display: flex;
     justify-content: flex-end;
