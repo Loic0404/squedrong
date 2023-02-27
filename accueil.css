@@ -8,6 +8,10 @@ nav{
     justify-content: space-between;
     color: gray;
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 h1 {
     font-family: 'Abril Fatface', cursive;
     color: palevioletred;
@@ -20,14 +24,20 @@ h2 {
 }
 
 .illustration img{
-    width: 300px;
+    width: 300px;  
 }
 
 a{
     text-decoration: none;
     color: gray;
 }
-.reseauxsociaux { gap: 20px;
+.reseauxsociaux { gap: 5px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+  justify-content: left;
+  text-align: left;
 
 }
 
@@ -37,10 +47,7 @@ a{
     background-color: #00acee;
     color: white;
     text-align: center;
-    margin: auto;
-
-    
-  
+    margin: auto; 
 }
 
 .linkedin{
@@ -61,10 +68,16 @@ a{
     margin: auto; 
 }
 
+
 .containerdeux{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+    grid-template-rows: 1fr 1fr 1fr 1fr;    
+}
+.photomac{
+    width: 400px;
 }
 
+.photopc{
+    width: 400px;
+}
