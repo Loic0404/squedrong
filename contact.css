@@ -179,6 +179,12 @@ nav div a {
     margin-bottom: 20px;
 }
 
+.message input {
+    height: 100px;
+    width: 300px;
+    size: 300;
+}
+
 /* CSS du footer */
 
 /* Mise en forme du footer */
